@@ -10,8 +10,9 @@ li {
 body{
   margin-left:20px;
   margin-top:0px;
-  background-image:url(pictures/nTZOILVZuOg.jpg);
-  background-size: contain;
+  background-image: url("pictures/healthfood.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 #grid{
@@ -40,13 +41,11 @@ body{
   }
   #button{
     float:left;
+    padding-left:23px;
+    padding-top:35px;
   }
   #act{
     float: right;
     border-left : none;
-  }
-  #button {
-    padding-left:23px;
-    padding-top:35px;
   }
 }

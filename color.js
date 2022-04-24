@@ -42,25 +42,23 @@ function nightDayHandler(self){
   // var targetborder_bottom = document.getElementById('main');
   // var links = document.querySelectorAll('a');
   // 여기서 변수명을 지정해도 위 함수에서 지역변수를 가져다 쓸 수 없기 때문에 변수를 사용하지 않았습니다.
-  if (self.value === 'night'){
-    Body.SetBackgroundColor('black');
-    Body.SetColor('white');
+  if (self.value === 'gray'){
+    Body.SetColor('powderblue');
 
-    self.value = 'day';
+    self.value = 'skyblue';
 
-    Border.divIdSetColor('white');
-    Border.h1TagSetColor('white');
+    Border.divIdSetColor('powderblue');
+    Border.h1TagSetColor('powderblue');
 
     Ol.SetColor('powderblue');
     Links.SetColor('powderblue')
 
   } else {
-    Body.SetBackgroundColor('white');
-    Body.SetColor('black');
-    self.value = 'night';
+    Body.SetColor('gray');
+    self.value = 'gray';
 
-    Border.divIdSetColor('black');
-    Border.h1TagSetColor('black');
+    Border.divIdSetColor('gray');
+    Border.h1TagSetColor('gray');
 
     Ol.SetColor('gray');
     Links.SetColor('gray')
